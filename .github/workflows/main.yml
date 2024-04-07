@@ -22,7 +22,7 @@ jobs:
       run: npm install
 
     - name: Build
-      run: npm run build -- --prod --base-href /madeira-outdoors-fe/
+      run: npm run build -- --configuration production --base-href /madeira-outdoors-fe/
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.4
